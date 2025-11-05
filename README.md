@@ -12,17 +12,17 @@ This project implements the Banker's Algorithm for deadlock avoidance in resourc
 
 #### Option 1: Run directly with Python
 ```bash
-python bankers_algorithm.py
+python main.py
 ```
 or
 ```bash
-python3 bankers_algorithm.py
+python3 main.py
 ```
 
 #### Option 2: Make the file executable (Linux/Mac)
 ```bash
-chmod +x bankers_algorithm.py
-./bankers_algorithm.py
+chmod +x main.py
+./main.py
 ```
 
 ### Program Features
