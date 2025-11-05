@@ -113,6 +113,7 @@ def find_safe_sequence():
     return temp_sequence
 
 def main():
+    # main loop
     while True:
         print("1. Find safe sequence")
         print("2. Request resources")
