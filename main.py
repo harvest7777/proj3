@@ -1,3 +1,7 @@
+"""
+ryan tran & phu quach
+cecs326 project 3
+"""
 print("Starting banker's algorithm")
 
 n = 5  # Number of processes
