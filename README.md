@@ -1,4 +1,3 @@
-# proj3
 # Banker's Algorithm Implementation
 ## CECS 326 - Operating Systems Project 3
 
@@ -39,7 +38,3 @@ The program provides an interactive menu with the following options:
 
 
 
-- The program maintains the system state throughout the session
-- Use option 5 to reset if you want to start fresh
-- All output is displayed in the console
-- The program uses deep copying to ensure state consistency during safety checks
