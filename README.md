@@ -41,4 +41,5 @@ You’ll see a menu:
 
 ---
 
+The video demo has demonstrated all the tests and explained each function.
 
