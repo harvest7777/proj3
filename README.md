@@ -25,6 +25,20 @@ chmod +x main.py
 ./main.py
 ```
 
+From the project directory, run:
 
+```bash
+python3 main.py
+```
+
+You’ll see a menu:
+
+```
+1. Find safe sequence
+2. Request resources
+3. Exit
+```
+
+---
 
 
