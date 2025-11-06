@@ -127,15 +127,15 @@ def main():
         elif choice == 2:
             process_index = int(input("Enter the process index: "))
             request = list(map(int, input("Enter the request: ").split()))
+
+            print()
             print(f"# Process {process_index} requested resources: {request}")
             try:
                 request_resources(process_index, request, init_available, init_need, init_allocation, init_finished)
-                print()
                 print("System in safe state")
                 print("Safe sequence: ", find_safe_sequence(init_available, init_need, init_allocation, init_finished))
                 print(f"Resources successfully allocated to process: {process_index}")
             except Exception as e:
-                print()
                 print(f"Error: {e}")
         elif choice == 3:
             break
