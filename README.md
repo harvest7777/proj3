@@ -25,16 +25,21 @@ chmod +x main.py
 ./main.py
 ```
 
-### Program Features
+From the project directory, run:
 
-The program provides an interactive menu with the following options:
+```bash
+python3 main.py
+```
 
-1. **Display current system state** - Shows the current Available, Maximum, Allocation, and Need matrices
-2. **Find safe sequence** - Runs the safety algorithm to find a safe execution sequence
-3. **Request resources** - Allows a process to request resources (with safety checking)
-4. **Run test cases** - Automatically runs the three test cases from the project specification
-5. **Reset system** - Resets all matrices to their initial values
-6. **Exit** - Exits the program
+You’ll see a menu:
 
+```
+1. Find safe sequence
+2. Request resources
+3. Exit
+```
 
+---
+
+The video demo has demonstrated all the tests and explained each function.
 
