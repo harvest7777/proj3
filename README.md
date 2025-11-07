@@ -19,12 +19,6 @@ or
 python3 main.py
 ```
 
-#### Option 2: Make the file executable (Linux/Mac)
-```bash
-chmod +x main.py
-./main.py
-```
-
 From the project directory, run:
 
 ```bash
